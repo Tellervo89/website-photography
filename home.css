@@ -281,7 +281,7 @@
 }
 .home-text01 {
   color: #ffffff;
-  width: 80%;
+  width: 60%;
   margin-top: var(--dl-space-space-unit);
   font-family: Open Sans;
   margin-left: var(--dl-space-space-fourunits);
@@ -315,6 +315,7 @@
 }
 .home-text05 {
   color: rgb(255, 255, 255);
+  width: 50%;
   font-family: Open Sans;
   margin-left: var(--dl-space-space-threeunits);
   margin-right: var(--dl-space-space-threeunits);
