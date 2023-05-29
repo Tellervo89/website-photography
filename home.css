@@ -256,9 +256,13 @@
   height: 195px;
   display: flex;
   position: relative;
-  margin-top: var(--dl-space-space-threeunits);
-  align-items: flex-start;
+  align-self: center;
+  margin-top: var(--dl-space-space-unit);
+  align-items: center;
+  margin-left: 0px;
+  margin-right: 0px;
   margin-bottom: var(--dl-space-space-threeunits);
+  justify-content: center;
 }
 .home-text {
   color: #ffffff;
@@ -277,7 +281,7 @@
 }
 .home-text01 {
   color: #ffffff;
-  width: 60%;
+  width: 80%;
   margin-top: var(--dl-space-space-unit);
   font-family: Open Sans;
   margin-left: var(--dl-space-space-fourunits);
@@ -304,7 +308,7 @@
   justify-content: center;
 }
 .home-image {
-  width: 100%;
+  width: auto;
   align-self: center;
   object-fit: cover;
   margin-left: var(--dl-space-space-fiveunits);
