@@ -40,14 +40,23 @@
     />
     <!--This is the head section-->
     <!-- <style> ... </style> -->
+    <style data-section-id="dropdown">
+      [data-thq="thq-dropdown"]:hover > [data-thq="thq-dropdown-list"] {
+          display: flex;
+        }
+
+        [data-thq="thq-dropdown"]:hover > div [data-thq="thq-dropdown-arrow"] {
+          transform: rotate(90deg);
+        }
+    </style>
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <div>
       <link href="./home.css" rel="stylesheet" />
 
-      <div class="home-container">
-        <header data-thq="thq-navbar" class="home-navbar">
+      <div id="HOME" class="home-container">
+        <header data-thq="thq-navbar" class="home-navbar-interactive">
           <div
             data-thq="thq-navbar-nav"
             data-role="Nav"
@@ -58,18 +67,63 @@
               data-role="Nav"
               class="home-nav"
             >
-              <button class="home-home button-clean button">HOME</button>
-              <button class="home-portraits button-clean button">
-                PORTRAITS
-              </button>
-              <button class="home-application-photos button-clean button">
-                APPLICATION-PHOTOS
-              </button>
-              <button class="home-travel button-clean button">TRAVEL</button>
-              <button class="home-prices button-clean button">PRICES</button>
-              <button class="home-contact button-clean button">CONTACT</button>
+              <span class="home-text">HOME</span>
+              <span class="home-text01">PORTRAITS</span>
+              <span class="home-text02">
+                <span>APPLICATION&nbsp; PHOTOS</span>
+                <br />
+              </span>
+              <span class="home-text05">
+                <span class="home-text06">TRAVEL</span>
+                <br />
+              </span>
+              <span class="home-text08">PRICES</span>
+              <span class="home-text09">CONTACT</span>
             </nav>
           </div>
+          <div data-thq="thq-burger-menu" class="home-burger-menu"></div>
+          <div data-thq="thq-mobile-menu" class="home-mobile-menu">
+            <div
+              data-thq="thq-mobile-menu-nav"
+              data-role="Nav"
+              class="home-nav1"
+            >
+              <div class="home-container1">
+                <img
+                  alt="image"
+                  src="public/Icons/logo%20white.svg"
+                  class="home-image"
+                />
+                <div data-thq="thq-close-menu" class="home-menu-close">
+                  <svg viewBox="0 0 1024 1024" class="home-icon">
+                    <path
+                      d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+              <nav
+                data-thq="thq-mobile-menu-nav-links"
+                data-role="Nav"
+                class="home-nav2"
+              >
+                <span class="home-text10">HOME</span>
+                <span class="home-text11">PORTRAITS</span>
+                <span class="home-text12">
+                  <span>APPLICATION PHOTOS</span>
+                  <br />
+                </span>
+                <span class="home-text15">TRAVEL</span>
+                <span class="home-text16">PRICES</span>
+                <span class="home-text17">CONTACT</span>
+              </nav>
+            </div>
+          </div>
+          <svg viewBox="0 0 1024 1024" class="home-icon2">
+            <path
+              d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+            ></path>
+          </svg>
         </header>
         <img
           alt="image"
@@ -83,12 +137,12 @@
           <div class="services-blog-post-card services-root-class-name5">
             <img
               alt="image"
-              src="public/Services/portraits-400h.jpg"
+              src="public/Services/portraits-1500w.jpg"
               class="services-image"
             />
             <div class="services-container">
-              <span class="services-text"><span>Portraits</span></span>
-              <span class="services-text1">
+              <span class="services-service"><span>Portraits</span></span>
+              <span class="services-description">
                 <span>
                   With my artistic vision and personalized approach, I
                   specialize in capturing the true essence of individuals,
@@ -107,8 +161,10 @@
               class="services-image"
             />
             <div class="services-container">
-              <span class="services-text"><span>Application Photos</span></span>
-              <span class="services-text1">
+              <span class="services-service">
+                <span>Application Photos</span>
+              </span>
+              <span class="services-description">
                 <span>
                   With a focus on precision and a keen eye for detail, I excel
                   at creating application photos that beautifully portray your
@@ -122,12 +178,12 @@
           <div class="services-blog-post-card services-root-class-name7">
             <img
               alt="image"
-              src="public/Services/travel-400h.jpg"
+              src="public/Services/travel-1500w.jpg"
               class="services-image"
             />
             <div class="services-container">
-              <span class="services-text"><span>Travel</span></span>
-              <span class="services-text1">
+              <span class="services-service"><span>Travel</span></span>
+              <span class="services-description">
                 <span>
                   Immerse yourself in the breathtaking beauty of the world
                   through my lens as I capture the essence of captivating
@@ -141,9 +197,9 @@
           </div>
         </div>
         <div class="home-book-a-session">
-          <h1 class="home-text">AUTHENTIC, RAW LIFESTYLE PHOTOGRAPHY</h1>
-          <div class="home-container1">
-            <span class="home-text01">
+          <h1 class="home-text18">AUTHENTIC, RAW LIFESTYLE PHOTOGRAPHY</h1>
+          <div class="home-container2">
+            <span class="home-text19">
               I embrace the authentic essence of everyday existence and the
               transient elegance found in the moments that often go unnoticed.
               My photography is a reflection of this appreciation, as I strive
@@ -157,9 +213,18 @@
             </button>
           </div>
         </div>
-        <div class="home-about-me">
-          <img alt="image" src="public/People/me-200w.jpg" class="home-image" />
-          <span class="home-text05">
+        <h1 class="home-about-me">
+          <span>About Me</span>
+          <br />
+        </h1>
+        <img alt="image" src="public/People/me-200w.jpg" class="home-image1" />
+        <div class="home-about-me1">
+          <img
+            alt="image"
+            src="public/People/me-200w.jpg"
+            class="home-image2"
+          />
+          <span class="home-text25">
             <span>
               It's me, Sjard, the man behind the camera. With each click of the
               shutter, I capture the raw essence of individuals, unveiling their
@@ -189,10 +254,12 @@
             <br />
           </span>
         </div>
-        <h1 class="home-what-they-say">
-          <span>What They Say</span>
-          <br />
-        </h1>
+        <div class="home-what-they-say">
+          <h1>
+            <span>What They Say</span>
+            <br />
+          </h1>
+        </div>
         <div class="home-testimonials">
           <div
             class="testimonials-testimonial-card testimonials-root-class-name3"
@@ -218,7 +285,7 @@
                 class="testimonials-image"
               />
               <span class="testimonials-text1">
-                <span>Gabriella Campus</span>
+                <span>Gabriella Campos</span>
               </span>
             </div>
           </div>
@@ -280,96 +347,101 @@
           </div>
         </div>
         <footer class="home-footer">
-          <div class="home-container2">
+          <div class="home-container3">
             <img
               alt="logo"
               src="public/Icons/logo%20white.svg"
               class="home-logo"
             />
-            <span class="home-copyright">
-              <span>© 2023 braun Photography,</span>
-              <br />
-              <span>All Rights Reserved.</span>
-            </span>
-            <div class="home-icon-group">
-              <a
-                href="https://simplex.chat/contact#/?v=1-2&amp;smp=smp%3A%2F%2F6iIcWT_dF2zN_w5xzZEY7HI2Prbh3ldP07YTyDexPjE%3D%40smp10.simplex.im%2F3e3JDODknrjU0ImNrqPRWV0pkiUcdS2y%23%2F%3Fv%3D1-2%26dh%3DMCowBQYDK2VuAyEAmmRuxr3VcImgiqqxp6-oWGMRPjg-cMTafbB7e4NI1Tw%253D%26srv%3Drb2pbttocvnbrngnwziclp2f4ckjq65kebafws6g4hy22cdaiv5dwjqd.onion"
-                target="_blank"
-                rel="noreferrer noopener"
-                class="home-link"
-              >
-                <img
-                  alt="image"
-                  src="public/Icons/logo-dark-200h.png"
-                  class="home-simplex"
-                />
-              </a>
-              <a href="mailto:photography@braun.is?subject=" class="home-link1">
-                <svg viewBox="0 0 1024 1024" class="home-mail">
-                  <path
-                    d="M854 342v-86l-342 214-342-214v86l342 212zM854 170q34 0 59 26t25 60v512q0 34-25 60t-59 26h-684q-34 0-59-26t-25-60v-512q0-34 25-60t59-26h684z"
-                  ></path>
-                </svg>
-              </a>
-              <a href="tel:+358414821715" class="home-link2">
-                <svg viewBox="0 0 1024 1024" class="home-phone">
-                  <path
-                    d="M282 460q96 186 282 282l94-94q20-20 44-10 72 24 152 24 18 0 30 12t12 30v150q0 18-12 30t-30 12q-300 0-513-213t-213-513q0-18 12-30t30-12h150q18 0 30 12t12 30q0 80 24 152 8 26-10 44z"
-                  ></path>
-                </svg>
-              </a>
-            </div>
-          </div>
-          <div class="home-links-container">
-            <div class="home-container3">
-              <div class="home-navigate">
-                <span class="home-navigate1">NAVIGATE</span>
-                <a href="index.html" class="home-home1">Home</a>
-                <span class="home-portraits2">Portraits</span>
-                <span class="home-application-photos2">Application-Photos</span>
-                <span class="home-travel2">Travel</span>
-              </div>
-              <div class="home-info">
-                <span class="home-info1">INFO</span>
-                <span class="home-prices1">Prices</span>
-                <span class="home-contact1">Contact</span>
-              </div>
-            </div>
-            <div class="home-social">
-              <div class="home-social1">
-                <span class="home-social2">SOCIAL</span>
+            <div class="home-container4">
+              <span class="home-copyright">
+                <span>© 2023 braun Photography,</span>
+                <br />
+                <span>All Rights Reserved.</span>
+              </span>
+              <div class="home-icon-group">
                 <a
                   href="https://simplex.chat/contact#/?v=1-2&amp;smp=smp%3A%2F%2F6iIcWT_dF2zN_w5xzZEY7HI2Prbh3ldP07YTyDexPjE%3D%40smp10.simplex.im%2F3e3JDODknrjU0ImNrqPRWV0pkiUcdS2y%23%2F%3Fv%3D1-2%26dh%3DMCowBQYDK2VuAyEAmmRuxr3VcImgiqqxp6-oWGMRPjg-cMTafbB7e4NI1Tw%253D%26srv%3Drb2pbttocvnbrngnwziclp2f4ckjq65kebafws6g4hy22cdaiv5dwjqd.onion"
                   target="_blank"
                   rel="noreferrer noopener"
-                  class="home-simplex-chat"
+                  class="home-link"
                 >
-                  Simplex-Chat
+                  <img
+                    alt="image"
+                    src="public/Icons/logo-dark-200h.png"
+                    class="home-simplex"
+                  />
                 </a>
                 <a
-                  href="https://github.com/Tellervo89"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                  class="home-git-hub"
+                  href="mailto:photography@braun.is?subject="
+                  class="home-link1"
                 >
-                  GitHub
+                  <svg viewBox="0 0 1024 1024" class="home-mail">
+                    <path
+                      d="M854 342v-86l-342 214-342-214v86l342 212zM854 170q34 0 59 26t25 60v512q0 34-25 60t-59 26h-684q-34 0-59-26t-25-60v-512q0-34 25-60t59-26h684z"
+                    ></path>
+                  </svg>
                 </a>
-                <a
-                  href="https://mastodon.online/@sjard"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                  class="home-mastodon"
-                >
-                  Mastodon
+                <a href="tel:+358414821715" class="home-link2">
+                  <svg viewBox="0 0 1024 1024" class="home-phone">
+                    <path
+                      d="M282 460q96 186 282 282l94-94q20-20 44-10 72 24 152 24 18 0 30 12t12 30v150q0 18-12 30t-30 12q-300 0-513-213t-213-513q0-18 12-30t30-12h150q18 0 30 12t12 30q0 80 24 152 8 26-10 44z"
+                    ></path>
+                  </svg>
                 </a>
-                <a
-                  href="https://www.linkedin.com/in/sjard"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                  class="home-linked-in"
-                >
-                  LinkedIn
-                </a>
+              </div>
+            </div>
+          </div>
+          <div class="home-links-container">
+            <div class="home-container5">
+              <div class="home-navigate">
+                <span class="home-navigate1">NAVIGATE</span>
+                <a href="#HOME" class="home-home">Home</a>
+                <span class="home-portraits1">Portraits</span>
+                <span class="home-application-photos1">Application-Photos</span>
+                <span class="home-travel1">Travel</span>
+              </div>
+              <div class="home-info">
+                <span class="home-info1">INFO</span>
+                <span class="home-prices">Prices</span>
+                <span class="home-contact">Contact</span>
+              </div>
+              <div class="home-social">
+                <div class="home-social1">
+                  <span class="home-social2">SOCIAL</span>
+                  <a
+                    href="https://simplex.chat/contact#/?v=1-2&amp;smp=smp%3A%2F%2F6iIcWT_dF2zN_w5xzZEY7HI2Prbh3ldP07YTyDexPjE%3D%40smp10.simplex.im%2F3e3JDODknrjU0ImNrqPRWV0pkiUcdS2y%23%2F%3Fv%3D1-2%26dh%3DMCowBQYDK2VuAyEAmmRuxr3VcImgiqqxp6-oWGMRPjg-cMTafbB7e4NI1Tw%253D%26srv%3Drb2pbttocvnbrngnwziclp2f4ckjq65kebafws6g4hy22cdaiv5dwjqd.onion"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    class="home-simplex-chat"
+                  >
+                    Simplex-Chat
+                  </a>
+                  <a
+                    href="https://github.com/Tellervo89"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    class="home-git-hub"
+                  >
+                    GitHub
+                  </a>
+                  <a
+                    href="https://mastodon.online/@sjard"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    class="home-mastodon"
+                  >
+                    Mastodon
+                  </a>
+                  <a
+                    href="https://www.linkedin.com/in/sjard"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    class="home-linked-in"
+                  >
+                    LinkedIn
+                  </a>
+                </div>
               </div>
             </div>
           </div>
