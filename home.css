@@ -240,22 +240,29 @@
 }
 .home-text02 {
   color: rgb(210, 210, 216);
+  font-style: normal;
   font-family: Open Sans;
+  font-weight: 400;
   margin-left: var(--dl-space-space-threeunits);
 }
-.home-text05 {
-  margin-left: var(--dl-space-space-threeunits);
-}
-.home-text06 {
-  color: #d2d2d8;
-  font-family: Open Sans;
-}
-.home-text08 {
+.home-text03 {
   color: rgb(210, 210, 216);
   font-family: Open Sans;
   margin-left: var(--dl-space-space-threeunits);
 }
+.home-text06 {
+  margin-left: var(--dl-space-space-threeunits);
+}
+.home-text07 {
+  color: #d2d2d8;
+  font-family: Open Sans;
+}
 .home-text09 {
+  color: rgb(210, 210, 216);
+  font-family: Open Sans;
+  margin-left: var(--dl-space-space-threeunits);
+}
+.home-text10 {
   color: rgb(210, 210, 216);
   font-family: Open Sans;
   margin-left: var(--dl-space-space-threeunits);
@@ -308,27 +315,34 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.home-text10 {
-  margin-bottom: var(--dl-space-space-unit);
-}
 .home-text11 {
   margin-bottom: var(--dl-space-space-unit);
 }
 .home-text12 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.home-text15 {
+.home-text13 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.home-text16 {
+.home-text14 {
   margin-bottom: var(--dl-space-space-unit);
 }
 .home-text17 {
   margin-bottom: var(--dl-space-space-unit);
 }
+.home-text18 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.home-text19 {
+  margin-bottom: var(--dl-space-space-unit);
+}
 .home-icon2 {
+  fill: #D9D9D9;
   width: 24px;
   height: 24px;
+  display: none;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
 }
 .home-background-top {
   width: 100VW;
@@ -369,7 +383,7 @@
   justify-content: center;
   background-color: #D2D2D8;
 }
-.home-text18 {
+.home-text20 {
   color: #27272d;
   width: 35%;
   align-self: center;
@@ -387,7 +401,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.home-text19 {
+.home-text21 {
   color: #27272d;
   width: 60%;
   margin-top: var(--dl-space-space-unit);
@@ -438,7 +452,7 @@
   object-fit: cover;
   margin-left: var(--dl-space-space-fiveunits);
 }
-.home-text25 {
+.home-text27 {
   color: rgb(255, 255, 255);
   width: 50%;
   font-family: Open Sans;
@@ -654,13 +668,16 @@
   .home-text02 {
     color: #d2d2d8;
   }
-  .home-text06 {
+  .home-text03 {
     color: #d2d2d8;
   }
-  .home-text08 {
+  .home-text07 {
     color: #d2d2d8;
   }
   .home-text09 {
+    color: #d2d2d8;
+  }
+  .home-text10 {
     color: #d2d2d8;
   }
   .home-footer {
@@ -697,7 +714,7 @@
     height: 478px;
     flex-direction: column;
   }
-  .home-text18 {
+  .home-text20 {
     top: 48px;
     left: 0px;
     right: 0px;
@@ -708,7 +725,7 @@
   .home-container2 {
     position: relative;
   }
-  .home-text19 {
+  .home-text21 {
     align-self: center;
   }
   .home-button {
@@ -811,16 +828,20 @@
     display: none;
     margin-left: var(--dl-space-space-unit);
   }
-  .home-text05 {
+  .home-text03 {
+    display: none;
+    margin-left: var(--dl-space-space-unit);
+  }
+  .home-text06 {
     width: 100VW;
     display: none;
     margin-left: var(--dl-space-space-unit);
   }
-  .home-text08 {
+  .home-text09 {
     display: none;
     margin-left: var(--dl-space-space-unit);
   }
-  .home-text09 {
+  .home-text10 {
     display: none;
     margin-left: var(--dl-space-space-unit);
   }
@@ -830,26 +851,37 @@
   .home-mobile-menu {
     background-color: #292323;
   }
-  .home-text10 {
-    color: rgb(255, 255, 255);
-  }
   .home-text11 {
     color: rgb(255, 255, 255);
+    font-family: Open Sans;
   }
   .home-text12 {
     color: rgb(255, 255, 255);
+    font-family: Open Sans;
   }
-  .home-text15 {
+  .home-text13 {
     color: rgb(255, 255, 255);
+    font-family: Open Sans;
   }
-  .home-text16 {
+  .home-text14 {
     color: rgb(255, 255, 255);
+    font-family: Open Sans;
   }
   .home-text17 {
+    color: rgb(255, 255, 255);
+    font-family: Open Sans;
+  }
+  .home-text18 {
+    color: rgb(255, 255, 255);
+    font-family: Open Sans;
+  }
+  .home-text19 {
     color: rgb(255, 255, 255);
   }
   .home-icon2 {
     fill: #D9D9D9;
+    display: flex;
+    border-width: 0px;
   }
   .home-tagline {
     width: 100VW;
@@ -923,7 +955,7 @@
   .home-book-a-session {
     height: 568px;
   }
-  .home-text18 {
+  .home-text20 {
     width: auto;
     text-align: center;
   }
