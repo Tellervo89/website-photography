@@ -94,17 +94,17 @@
     margin-bottom: var(--dl-space-space-halfunit);
   }
   .testimonials-root-class-name3 {
-    width: 100VW;
+    width: auto;
     height: auto;
-    max-width: auto;
-    align-self: stretch;
+    max-width: 100%;
+    align-self: center;
   }
   .testimonials-root-class-name4 {
-    width: 100VW;
-    align-self: stretch;
+    max-width: 100%;
+    align-self: center;
   }
   .testimonials-root-class-name5 {
-    width: 100VW;
-    align-self: stretch;
+    max-width: 100%;
+    align-self: center;
   }
 }

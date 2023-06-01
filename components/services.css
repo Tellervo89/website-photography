@@ -75,11 +75,25 @@
     margin-right: var(--dl-space-space-twounits);
   }
   .services-root-class-name5 {
-    width: 100%;
+    width: auto;
+  }
+  .services-root-class-name6 {
+    width: auto;
+  }
+  .services-root-class-name7 {
+    width: auto;
   }
 }
 @media(max-width: 767px) {
   .services-image {
     height: 100%;
+  }
+  .services-root-class-name5 {
+    width: 100%;
+  }
+}
+@media(max-width: 479px) {
+  .services-root-class-name5 {
+    align-self: flex-start;
   }
 }
