@@ -431,6 +431,7 @@
 
 
 
+
 @media(max-width: 1600px) {
   .footer-footer {
     max-width: auto;
@@ -438,6 +439,9 @@
   .footer-container2 {
     margin-right: var(--dl-space-space-sixunits);
     justify-content: flex-end;
+  }
+  .footer-root-class-name5 {
+    width: 100VW;
   }
 }
 @media(max-width: 1200px) {
@@ -633,7 +637,7 @@
   display: flex;
   position: relative;
   align-items: center;
-  margin-right: var(--dl-space-space-twounits);
+  margin-right: var(--dl-space-space-unit);
   flex-direction: column;
   justify-content: flex-start;
 }
@@ -712,7 +716,7 @@
   width: auto;
   display: flex;
   align-items: center;
-  margin-left: var(--dl-space-space-twounits);
+  margin-left: var(--dl-space-space-unit);
   flex-direction: column;
   justify-content: flex-start;
 }
@@ -739,7 +743,7 @@
   font-family: Open Sans;
 }
 .contact-address1 {
-  color: rgb(255, 255, 255);
+  color: #d2d2d8;
   align-self: center;
   font-style: normal;
   margin-top: var(--dl-space-space-unit);

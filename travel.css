@@ -565,6 +565,7 @@
 
 
 
+
 @media(max-width: 1600px) {
   .footer-footer {
     max-width: auto;
@@ -572,6 +573,9 @@
   .footer-container2 {
     margin-right: var(--dl-space-space-sixunits);
     justify-content: flex-end;
+  }
+  .footer-root-class-name5 {
+    width: 100VW;
   }
 }
 @media(max-width: 1200px) {

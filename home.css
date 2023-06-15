@@ -308,11 +308,12 @@
   margin-bottom: 0px;
 }
 .services-root-class-name7 {
+  margin: var(--dl-space-space-unit);
   max-width: 100%;
   align-self: stretch;
   margin-top: 0px;
-  margin-left: var(--dl-space-space-unit);
-  margin-right: var(--dl-space-space-unit);
+  margin-left: 0px;
+  margin-right: 0px;
   margin-bottom: 0px;
 }
 @media(max-width: 991px) {
@@ -643,6 +644,7 @@
 
 
 
+
 @media(max-width: 1600px) {
   .footer-footer {
     max-width: auto;
@@ -650,6 +652,9 @@
   .footer-container2 {
     margin-right: var(--dl-space-space-sixunits);
     justify-content: flex-end;
+  }
+  .footer-root-class-name5 {
+    width: 100VW;
   }
 }
 @media(max-width: 1200px) {
@@ -826,6 +831,8 @@
   overflow: auto;
   min-height: 100vh;
   align-items: center;
+  border-color: var(--dl-color-gray-black);
+  border-width: 0px;
   flex-direction: column;
   background-color: #27272D;
 }
@@ -945,11 +952,11 @@
   position: relative;
   margin-top: var(--dl-space-space-unit);
   align-items: center;
-  margin-left: var(--dl-space-space-unit);
+  margin-left: 0px;
   border-color: rgba(120, 120, 120, 0.4);
   border-style: dashed;
   border-width: 0px;
-  margin-right: var(--dl-space-space-unit);
+  margin-right: 0px;
   margin-bottom: var(--dl-space-space-fourunits);
   justify-content: center;
 }
@@ -988,6 +995,19 @@
   margin-bottom: 0px;
   flex-direction: row;
   background-color: #D2D2D8;
+}
+@media(max-width: 1600px) {
+  .home-container {
+    align-items: center;
+    justify-content: center;
+  }
+  .home-background-top {
+    align-self: center;
+  }
+  .home-about-me1 {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
 }
 @media(max-width: 991px) {
   .home-container {
@@ -1055,6 +1075,9 @@
     height: 630px;
     flex-direction: column;
   }
+  .home-container1 {
+    margin-top: var(--dl-space-space-unit);
+  }
   .home-about-me {
     color: rgb(255, 255, 255);
     width: 100%;
@@ -1077,11 +1100,14 @@
     width: 100VW;
   }
   .home-book-a-session {
-    height: 562px;
+    height: 600px;
   }
   .home-text {
     width: auto;
     text-align: center;
+  }
+  .home-container1 {
+    margin-top: var(--dl-space-space-twounits);
   }
   .home-about-me {
     width: 100VW;
