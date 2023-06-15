@@ -28,6 +28,7 @@
 .navbar-interactive-home {
   color: rgb(255, 255, 255);
   font-family: Open Sans;
+  text-decoration: none;
 }
 .navbar-interactive-portraits {
   color: rgb(255, 255, 255);
@@ -671,6 +672,7 @@
   margin-top: var(--dl-space-space-twounits);
   font-family: Open Sans;
   font-weight: 300;
+  margin-right: var(--dl-space-space-halfunit);
 }
 .prices-text04 {
   font-size: 4rem;
@@ -744,6 +746,7 @@
   margin-top: var(--dl-space-space-twounits);
   font-family: Open Sans;
   font-weight: 300;
+  margin-right: var(--dl-space-space-halfunit);
 }
 .prices-text17 {
   font-size: 4rem;
@@ -823,6 +826,7 @@
   margin-top: var(--dl-space-space-twounits);
   font-family: Open Sans;
   font-weight: 300;
+  margin-right: var(--dl-space-space-halfunit);
 }
 .prices-text29 {
   width: auto;
@@ -836,11 +840,11 @@
   margin-bottom: var(--dl-space-space-unit);
   flex-direction: column;
 }
-.prices-text32 {
+.prices-text30 {
   font-family: Open Sans;
   margin-bottom: var(--dl-space-space-unit);
 }
-.prices-text35 {
+.prices-text33 {
   font-family: Open Sans;
   margin-bottom: var(--dl-space-space-unit);
 }

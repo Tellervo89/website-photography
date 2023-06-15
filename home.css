@@ -28,6 +28,7 @@
 .navbar-interactive-home {
   color: rgb(255, 255, 255);
   font-family: Open Sans;
+  text-decoration: none;
 }
 .navbar-interactive-portraits {
   color: rgb(255, 255, 255);
@@ -364,9 +365,10 @@
 }
 .testimonials-testimonial {
   display: flex;
+  align-self: center;
   align-items: center;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
 }
 .testimonials-text {
   color: #27272D;
