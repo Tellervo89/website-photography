@@ -308,12 +308,11 @@
   margin-bottom: 0px;
 }
 .services-root-class-name7 {
-  margin: var(--dl-space-space-unit);
   max-width: 100%;
   align-self: stretch;
   margin-top: 0px;
-  margin-left: 0px;
-  margin-right: 0px;
+  margin-left: var(--dl-space-space-unit);
+  margin-right: var(--dl-space-space-unit);
   margin-bottom: 0px;
 }
 @media(max-width: 991px) {
