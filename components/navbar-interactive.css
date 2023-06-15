@@ -28,6 +28,7 @@
 .navbar-interactive-home {
   color: rgb(255, 255, 255);
   font-family: Open Sans;
+  text-decoration: none;
 }
 .navbar-interactive-portraits {
   color: rgb(255, 255, 255);
