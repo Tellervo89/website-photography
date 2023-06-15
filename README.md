@@ -1,4 +1,4 @@
-# website-photography
+# Website Photography
 Welcome to my photography website! This is a static website showcasing my photography work. It's built using HTML, CSS, and JavaScript, and it's designed to be simple, elegant, and focused on the visual experience.
 
 # Contributing
