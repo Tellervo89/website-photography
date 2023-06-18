@@ -907,17 +907,6 @@
   margin-right: var(--dl-space-space-fourunits);
   margin-bottom: var(--dl-space-space-unit);
 }
-.home-navlink3 {
-  color: #27272d;
-  align-self: center;
-  margin-top: var(--dl-space-space-twounits);
-  font-family: Open Sans;
-  margin-left: var(--dl-space-space-fourunits);
-  padding-top: var(--dl-space-space-unit);
-  border-width: 0px;
-  text-decoration: none;
-  background-color: rgb(153, 153, 153);
-}
 .home-about-me {
   color: #ffffff;
   width: 100%;
@@ -1026,14 +1015,6 @@
   .home-text01 {
     align-self: center;
   }
-  .home-navlink3 {
-    left: 0px;
-    right: 0px;
-    bottom: -88px;
-    margin: auto;
-    position: absolute;
-    align-self: center;
-  }
   .home-about-me {
     align-self: center;
   }
@@ -1064,6 +1045,11 @@
   .home-container1 {
     margin-top: var(--dl-space-space-unit);
   }
+  .home-text01 {
+    width: 80%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
   .home-about-me {
     color: rgb(255, 255, 255);
     width: 100%;
@@ -1086,7 +1072,8 @@
     width: 100VW;
   }
   .home-book-a-session {
-    height: 600px;
+    width: 478px;
+    height: 519px;
   }
   .home-text {
     width: auto;
@@ -1094,6 +1081,9 @@
   }
   .home-container1 {
     margin-top: var(--dl-space-space-twounits);
+  }
+  .home-text01 {
+    width: 80%;
   }
   .home-about-me {
     width: 100VW;
@@ -1108,6 +1098,9 @@
   }
   .home-image1 {
     display: none;
+  }
+  .home-text07 {
+    width: 60%;
   }
   .home-testimonials {
     align-items: center;

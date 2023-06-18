@@ -35,23 +35,28 @@
   --dl-space-space-oneandhalfunits: 24px;
 }
 .button {
-  color: var(--dl-color-gray-black);
+  color: #27272d;
   cursor: pointer;
   display: inline-block;
   padding: 0.5rem 1rem;
   font-size: 18px;
+  align-self: center;
   box-shadow: 5px 6px 0px 0px #000000;
   font-style: normal;
+  margin-top: var(--dl-space-space-twounits);
   transition: 0.3s;
+  font-family: Open Sans;
   font-weight: 500;
+  margin-left: var(--dl-space-space-fourunits);
   padding-top: var(--dl-space-space-unit);
   border-color: var(--dl-color-gray-black);
-  border-width: 1px;
+  border-width: 0px;
   padding-left: var(--dl-space-space-oneandhalfunits);
   border-radius: 0px;
   padding-right: var(--dl-space-space-oneandhalfunits);
   padding-bottom: var(--dl-space-space-unit);
-  background-color: rgb(255, 207, 119);
+  text-decoration: none;
+  background-color: rgb(153, 153, 153);
 }
 .button:hover {
   opacity: 0.5;
@@ -167,6 +172,17 @@
   text-decoration: none;
 }
 
+
+@media(max-width: 991px) {
+  .button {
+    left: 0px;
+    right: 0px;
+    bottom: -88px;
+    margin: auto;
+    position: absolute;
+    align-self: center;
+  }
+}
 @media(max-width: 767px) {
   .button-link {
     padding-top: var(--dl-space-space-oneandhalfunits);
