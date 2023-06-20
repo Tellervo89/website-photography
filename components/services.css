@@ -48,24 +48,24 @@
   max-width: 100%;
   align-self: stretch;
   margin-top: 0px;
-  margin-left: var(--dl-space-space-unit);
-  margin-right: var(--dl-space-space-unit);
+  margin-left: var(--dl-space-space-twounits);
+  margin-right: var(--dl-space-space-twounits);
   margin-bottom: 0px;
 }
 .services-root-class-name6 {
   max-width: 100%;
   align-self: stretch;
   margin-top: 0px;
-  margin-left: var(--dl-space-space-unit);
-  margin-right: var(--dl-space-space-unit);
+  margin-left: var(--dl-space-space-twounits);
+  margin-right: var(--dl-space-space-twounits);
   margin-bottom: 0px;
 }
 .services-root-class-name7 {
   max-width: 100%;
   align-self: stretch;
   margin-top: 0px;
-  margin-left: var(--dl-space-space-unit);
-  margin-right: var(--dl-space-space-unit);
+  margin-left: var(--dl-space-space-twounits);
+  margin-right: var(--dl-space-space-twounits);
   margin-bottom: 0px;
 }
 @media(max-width: 991px) {

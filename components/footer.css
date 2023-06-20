@@ -184,7 +184,9 @@
 
 
 
-
+.footer-root-class-name5 {
+  max-width: 100%;
+}
 @media(max-width: 1600px) {
   .footer-footer {
     max-width: auto;
