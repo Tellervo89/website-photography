@@ -313,12 +313,18 @@
   }
   .services-root-class-name5 {
     width: auto;
+    margin-left: 0px;
+    margin-right: 0px;
   }
   .services-root-class-name6 {
     width: auto;
+    margin-left: 0px;
+    margin-right: 0px;
   }
   .services-root-class-name7 {
     width: auto;
+    margin-left: 0px;
+    margin-right: 0px;
   }
 }
 @media(max-width: 767px) {
@@ -1091,7 +1097,9 @@
   }
   .home-text {
     width: 60%;
+    margin-top: auto;
     text-align: center;
+    margin-bottom: auto;
   }
   .home-container1 {
     margin-top: var(--dl-space-space-twounits);
