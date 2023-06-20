@@ -881,6 +881,9 @@
     max-width: 100%;
     align-items: center;
   }
+  .prices-navlink {
+    display: none;
+  }
   .prices-pricing-card1 {
     width: 100%;
     max-width: 100%;
@@ -920,7 +923,7 @@
     margin-bottom: var(--dl-space-space-twounits);
   }
   .prices-navlink1 {
-    display: flex;
+    display: none;
   }
   .prices-pricing-card2 {
     width: 100%;
@@ -936,6 +939,9 @@
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
     padding-bottom: var(--dl-space-space-twounits);
+  }
+  .prices-navlink1 {
+    display: none;
   }
   .prices-pricing-card2 {
     margin-bottom: 0px;
