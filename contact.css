@@ -741,7 +741,7 @@
   margin-bottom: var(--dl-space-space-unit);
 }
 .contact-iframe {
-  width: 100VW;
+  width: 97VW;
   height: 400px;
   align-self: center;
   margin-top: var(--dl-space-space-unit);
@@ -766,6 +766,7 @@
     margin-top: var(--dl-space-space-twounits);
   }
   .contact-iframe {
+    width: 90VW;
     height: 300px;
   }
 }
