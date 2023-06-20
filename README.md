@@ -1,4 +1,4 @@
-# Website Photography
+# Photography Website
 Welcome to my photography website! This is a static website showcasing my photography work. It's built using HTML and CSS, and it's designed to be simple, elegant, and focused on the visual experience.
 
 Demo: https://braun.is/
