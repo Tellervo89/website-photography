@@ -282,24 +282,24 @@
   max-width: 100%;
   align-self: stretch;
   margin-top: 0px;
-  margin-left: var(--dl-space-space-unit);
-  margin-right: var(--dl-space-space-unit);
+  margin-left: var(--dl-space-space-twounits);
+  margin-right: var(--dl-space-space-twounits);
   margin-bottom: 0px;
 }
 .services-root-class-name6 {
   max-width: 100%;
   align-self: stretch;
   margin-top: 0px;
-  margin-left: var(--dl-space-space-unit);
-  margin-right: var(--dl-space-space-unit);
+  margin-left: var(--dl-space-space-twounits);
+  margin-right: var(--dl-space-space-twounits);
   margin-bottom: 0px;
 }
 .services-root-class-name7 {
   max-width: 100%;
   align-self: stretch;
   margin-top: 0px;
-  margin-left: var(--dl-space-space-unit);
-  margin-right: var(--dl-space-space-unit);
+  margin-left: var(--dl-space-space-twounits);
+  margin-right: var(--dl-space-space-twounits);
   margin-bottom: 0px;
 }
 @media(max-width: 991px) {
@@ -630,7 +630,9 @@
 
 
 
-
+.footer-root-class-name5 {
+  max-width: 100%;
+}
 @media(max-width: 1600px) {
   .footer-footer {
     max-width: auto;
@@ -823,14 +825,14 @@
   background-color: #27272D;
 }
 .home-background-top {
-  width: 100VW;
+  width: 100%;
   height: 100%;
   object-fit: cover;
   margin-bottom: var(--dl-space-space-threeunits);
 }
 .home-tagline {
   color: #ffffff;
-  width: 100VW;
+  width: 80%;
   height: 100%;
   align-self: center;
   margin-top: var(--dl-space-space-threeunits);
@@ -839,7 +841,7 @@
   margin-bottom: var(--dl-space-space-threeunits);
 }
 .home-services {
-  width: 100%;
+  width: 95VW;
   height: auto;
   display: flex;
   margin-top: var(--dl-space-space-threeunits);
@@ -895,6 +897,7 @@
   display: flex;
   align-self: center;
   align-items: center;
+  margin-right: var(--dl-space-space-twounits);
   flex-direction: column;
   justify-content: center;
 }
@@ -909,7 +912,7 @@
 }
 .home-about-me {
   color: #ffffff;
-  width: 100%;
+  width: auto;
   align-self: center;
   margin-top: var(--dl-space-space-threeunits);
   text-align: center;
@@ -984,13 +987,18 @@
     margin-right: 0px;
   }
 }
+@media(max-width: 1200px) {
+  .home-background-top {
+    width: 100%;
+  }
+}
 @media(max-width: 991px) {
   .home-container {
     border-color: var(--dl-color-gray-black);
     border-width: 0px;
   }
   .home-tagline {
-    width: 827px;
+    width: 80%;
   }
   .home-services {
     width: 100%;
@@ -1033,7 +1041,7 @@
     width: 100%;
   }
   .home-tagline {
-    width: 100VW;
+    width: 80%;
   }
   .home-services {
     flex-direction: column;
@@ -1069,14 +1077,14 @@
 }
 @media(max-width: 479px) {
   .home-tagline {
-    width: 100VW;
+    width: 80%;
   }
   .home-book-a-session {
     width: 478px;
     height: 519px;
   }
   .home-text {
-    width: auto;
+    width: 60%;
     text-align: center;
   }
   .home-container1 {
