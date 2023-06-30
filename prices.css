@@ -775,6 +775,7 @@
 }
 .prices-navlink1 {
   color: var(--dl-color-gray-white);
+  align-self: center;
   margin-top: auto;
   font-family: Open Sans;
   margin-left: 0px;
