@@ -742,14 +742,14 @@
 }
 .contact-iframe {
   width: 80VW;
-  height: 400px;
+  height: 600px;
   align-self: center;
   margin-top: var(--dl-space-space-twounits);
   margin-bottom: var(--dl-space-space-twounits);
 }
 @media(max-width: 1600px) {
   .contact-iframe {
-    height: 350px;
+    height: 400px;
   }
 }
 @media(max-width: 1200px) {
@@ -767,18 +767,18 @@
   }
   .contact-iframe {
     width: 90VW;
-    height: 300px;
+    height: 350px;
   }
 }
 @media(max-width: 991px) {
   .contact-iframe {
-    height: 250px;
+    height: 300px;
   }
 }
 @media(max-width: 767px) {
   .contact-iframe {
-    height: 250px;
-    margin-bottom: var(--dl-space-space-sixunits);
+    height: 300px;
+    margin-bottom: var(--dl-space-space-twounits);
   }
 }
 @media(max-width: 479px) {
@@ -795,6 +795,6 @@
     margin-left: var(--dl-space-space-halfunit);
   }
   .contact-iframe {
-    height: 200px;
+    height: 300px;
   }
 }
