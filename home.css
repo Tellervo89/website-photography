@@ -928,7 +928,7 @@
   font-family: Open Sans;
 }
 .home-image {
-  width: 200px;
+  width: auto;
   display: none;
   object-fit: cover;
 }
