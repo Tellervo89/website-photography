@@ -284,7 +284,8 @@
 }
 .services-description {
   color: #ffffff;
-  text-align: left;
+  align-self: center;
+  text-align: justify;
   font-family: Open Sans;
   font-weight: 400;
   margin-bottom: var(--dl-space-space-twounits);
@@ -597,6 +598,11 @@
   margin-bottom: var(--dl-space-space-oneandhalfunits);
 }
 .footer-prices {
+  color: rgb(255, 255, 255);
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.footer-portfolio {
   color: rgb(255, 255, 255);
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
@@ -927,6 +933,7 @@
   color: #27272d;
   width: 60%;
   margin-top: var(--dl-space-space-unit);
+  text-align: justify;
   font-family: Open Sans;
   margin-left: 0px;
   margin-right: 0px;
@@ -980,6 +987,7 @@
 .home-text07 {
   color: rgb(255, 255, 255);
   width: 50%;
+  text-align: justify;
   font-family: Open Sans;
   margin-left: var(--dl-space-space-threeunits);
   margin-right: var(--dl-space-space-threeunits);
@@ -1098,6 +1106,8 @@
   }
   .home-tagline {
     width: 80%;
+    margin-top: var(--dl-space-space-twounits);
+    margin-bottom: var(--dl-space-space-twounits);
   }
   .home-services {
     flex-direction: column;
@@ -1154,6 +1164,8 @@
 @media(max-width: 479px) {
   .home-tagline {
     width: 80%;
+    margin-top: var(--dl-space-space-unit);
+    margin-bottom: var(--dl-space-space-unit);
   }
   .home-book-a-session {
     width: auto;

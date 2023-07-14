@@ -383,6 +383,11 @@
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
+.footer-portfolio {
+  color: rgb(255, 255, 255);
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
 .footer-contact {
   color: rgb(255, 255, 255);
   margin-bottom: var(--dl-space-space-unit);
