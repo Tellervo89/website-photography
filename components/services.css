@@ -34,7 +34,8 @@
 }
 .services-description {
   color: #ffffff;
-  text-align: left;
+  align-self: center;
+  text-align: justify;
   font-family: Open Sans;
   font-weight: 400;
   margin-bottom: var(--dl-space-space-twounits);
