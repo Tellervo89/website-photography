@@ -29,19 +29,24 @@
   font-family: Open Sans;
   margin-bottom: var(--dl-space-space-twounits);
 }
+.testimonials-link {
+  display: contents;
+}
 .testimonials-image {
   width: var(--dl-size-size-medium);
   height: var(--dl-size-size-medium);
   object-fit: cover;
   border-radius: var(--dl-radius-radius-round);
+  text-decoration: none;
 }
-.testimonials-text1 {
+.testimonials-link1 {
   color: #27272D;
   font-size: 1.5rem;
   margin-top: var(--dl-space-space-halfunit);
   font-family: Open Sans;
   font-weight: 300;
   margin-bottom: var(--dl-space-space-halfunit);
+  text-decoration: none;
 }
 
 
@@ -91,7 +96,7 @@
   .testimonials-text {
     margin-bottom: var(--dl-space-space-twounits);
   }
-  .testimonials-text1 {
+  .testimonials-link1 {
     margin-bottom: var(--dl-space-space-halfunit);
   }
   .testimonials-root-class-name3 {
