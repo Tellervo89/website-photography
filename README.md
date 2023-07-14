@@ -13,4 +13,4 @@ If you'd like to contribute code to this project, follow these steps:
    5. Open a pull request on the main repository.
 
 # License
-This project is licensed under the MIT License. Feel free to modify and use the code for your own photography website.
+This project is licensed under the MIT License. Feel free to modify and use the code for your own website.
