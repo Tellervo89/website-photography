@@ -54,6 +54,12 @@
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
+.navbar-interactive-portfolio {
+  color: rgb(255, 255, 255);
+  font-family: Open Sans;
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
 .navbar-interactive-contact {
   color: rgb(255, 255, 255);
   font-family: Open Sans;
@@ -132,6 +138,10 @@
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
+.navbar-interactive-portfolio1 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
 .navbar-interactive-contact1 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
@@ -168,6 +178,9 @@
   .navbar-interactive-prices {
     margin-left: var(--dl-space-space-unit);
   }
+  .navbar-interactive-portfolio {
+    margin-left: var(--dl-space-space-unit);
+  }
   .navbar-interactive-contact {
     margin-left: var(--dl-space-space-unit);
   }
@@ -196,6 +209,9 @@
     color: rgb(255, 255, 255);
   }
   .navbar-interactive-prices1 {
+    color: rgb(255, 255, 255);
+  }
+  .navbar-interactive-portfolio1 {
     color: rgb(255, 255, 255);
   }
   .navbar-interactive-contact1 {
