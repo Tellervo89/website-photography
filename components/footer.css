@@ -211,6 +211,12 @@
   .footer-container {
     margin-left: var(--dl-space-space-fourunits);
   }
+  .footer-logo {
+    display: none;
+  }
+  .footer-container1 {
+    display: none;
+  }
   .footer-links-container {
     width: 572px;
   }
