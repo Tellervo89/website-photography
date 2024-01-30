@@ -27,30 +27,30 @@
 }
 .navbar-interactive-home {
   color: rgb(255, 255, 255);
-  font-family: Open Sans;
+  font-family: "Open Sans";
   text-decoration: none;
 }
 .navbar-interactive-portraits {
   color: rgb(255, 255, 255);
-  font-family: Open Sans;
+  font-family: "Open Sans";
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
 .navbar-interactive-application-photos {
   color: rgb(255, 255, 255);
-  font-family: Open Sans;
+  font-family: "Open Sans";
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
 .navbar-interactive-travel {
   color: rgb(255, 255, 255);
-  font-family: Open Sans;
+  font-family: "Open Sans";
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
 .navbar-interactive-prices {
   color: rgb(255, 255, 255);
-  font-family: Open Sans;
+  font-family: "Open Sans";
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
@@ -62,7 +62,7 @@
 }
 .navbar-interactive-contact {
   color: rgb(255, 255, 255);
-  font-family: Open Sans;
+  font-family: "Open Sans";
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
@@ -156,6 +156,13 @@
 
 
 
+@media(max-width: 1200px) {
+  .navbar-interactive-portfolio {
+    color: rgb(255, 255, 255);
+    font-family: Open Sans;
+    text-decoration: none;
+  }
+}
 @media(max-width: 767px) {
   .navbar-interactive-navbar-interactive {
     padding-top: var(--dl-space-space-unit);
@@ -218,9 +225,6 @@
     color: rgb(255, 255, 255);
   }
   .navbar-interactive-root-class-name {
-    align-self: flex-start;
-  }
-  .navbar-interactive-root-class-name1 {
     align-self: flex-start;
   }
   .navbar-interactive-root-class-name2 {
@@ -401,6 +405,12 @@
     margin-left: 0px;
     margin-right: 0px;
     margin-bottom: 0px;
+  }
+  .gallery-horizontal-root-class-name4 {
+    width: 100%;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
   }
   .gallery-horizontal-root-class-name5 {
     width: 100%;
