@@ -397,6 +397,11 @@
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
+.footer-contact1 {
+  color: rgb(255, 255, 255);
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
 .footer-social {
   height: 173px;
   display: flex;
