@@ -1,102 +1,187 @@
-<div>
-  <link href="./navbar-interactive.css" rel="stylesheet" />
-  <div class="navbar-interactive-container">
-    <header data-thq="thq-navbar" class="navbar-interactive-navbar-interactive">
-      <div
-        data-thq="thq-navbar-nav"
-        data-role="Nav"
-        class="navbar-interactive-desktop-menu"
-      >
-        <nav
-          data-thq="thq-navbar-nav-links"
-          data-role="Nav"
-          class="navbar-interactive-nav"
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>braun Photography</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Open Sans;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="shortcut icon"
+      href="public/favicon.ico"
+      type="icon/png"
+      sizes="32x32"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+    <!--This is the head section-->
+    <!-- <style> ... </style> -->
+    <style data-section-id="dropdown">
+      [data-thq="thq-dropdown"]:hover > [data-thq="thq-dropdown-list"] {
+          display: flex;
+        }
+
+        [data-thq="thq-dropdown"]:hover > div [data-thq="thq-dropdown-arrow"] {
+          transform: rotate(90deg);
+        }
+    </style>
+  </head>
+  <body>
+    <link rel="stylesheet" href="../style.css" />
+    <div>
+      <link href="./navbar-interactive.css" rel="stylesheet" />
+      <div class="navbar-interactive-container">
+        <header
+          data-thq="thq-navbar"
+          class="navbar-interactive-navbar-interactive"
         >
-          <a href="index.html" class="navbar-interactive-home">
-            <span>HOME</span>
-          </a>
-          <a href="portraits.html" class="navbar-interactive-portraits">
-            <span>PORTRAITS</span>
-          </a>
-          <a
-            href="application-photos.html"
-            class="navbar-interactive-application-photos"
-          >
-            <span>APPLICATION PHOTOS</span>
-            <br />
-          </a>
-          <a href="travel.html" class="navbar-interactive-travel">
-            <span>TRAVEL</span>
-          </a>
-          <a href="prices.html" class="navbar-interactive-prices">
-            <span>PRICES</span>
-          </a>
-          <a href="contact.html" class="navbar-interactive-contact">
-            <span>CONTACT</span>
-          </a>
-        </nav>
-      </div>
-      <div data-thq="thq-burger-menu" class="navbar-interactive-burger-menu">
-        <svg viewBox="0 0 1024 1024" class="navbar-interactive-icon">
-          <path
-            d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
-          ></path>
-        </svg>
-      </div>
-      <div data-thq="thq-mobile-menu" class="navbar-interactive-mobile-menu">
-        <div
-          data-thq="thq-mobile-menu-nav"
-          data-role="Nav"
-          class="navbar-interactive-nav1"
-        >
-          <div class="navbar-interactive-container1">
-            <img
-              alt="image"
-              src="public/Icons/logo%20white.svg"
-              class="navbar-interactive-image"
-            />
-            <div
-              data-thq="thq-close-menu"
-              class="navbar-interactive-menu-close"
-            >
-              <svg viewBox="0 0 1024 1024" class="navbar-interactive-icon2">
-                <path
-                  d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
-                ></path>
-              </svg>
-            </div>
-          </div>
-          <nav
-            data-thq="thq-mobile-menu-nav-links"
+          <div
+            data-thq="thq-navbar-nav"
             data-role="Nav"
-            class="navbar-interactive-nav2"
+            class="navbar-interactive-desktop-menu"
           >
-            <a href="index.html" class="navbar-interactive-home1">
-              <span>Home</span>
-            </a>
-            <a href="portraits.html" class="navbar-interactive-portraits1">
-              <span>Portraits</span>
-            </a>
-            <a
-              href="application-photos.html"
-              class="navbar-interactive-application-photos1"
+            <nav
+              data-thq="thq-navbar-nav-links"
+              data-role="Nav"
+              class="navbar-interactive-nav"
             >
-              <span>Application Photos</span>
-              <br />
-            </a>
-            <a href="travel.html" class="navbar-interactive-travel1">
-              <span>Travel</span>
-            </a>
-            <a href="prices.html" class="navbar-interactive-prices1">
-              <span>Prices</span>
-            </a>
-            <a href="contact.html" class="navbar-interactive-contact1">
-              <span>Contact</span>
-            </a>
-          </nav>
-        </div>
-        <div class="navbar-interactive-icon-group"></div>
+              <a href="index.html" class="navbar-interactive-home">HOME</a>
+              <a href="portraits.html" class="navbar-interactive-portraits">
+                PORTRAITS
+              </a>
+              <a
+                href="application-photos.html"
+                class="navbar-interactive-application-photos"
+              >
+                <span>APPLICATION PHOTOS</span>
+                <br />
+              </a>
+              <a href="travel.html" class="navbar-interactive-travel">TRAVEL</a>
+              <a href="prices.html" class="navbar-interactive-prices">PRICES</a>
+              <a
+                href="https://www.shutterstock.com/g/Sjard+Braun"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="navbar-interactive-portfolio"
+              >
+                PORTFOLIO
+              </a>
+              <a href="contact.html" class="navbar-interactive-contact">
+                CONTACT
+              </a>
+            </nav>
+          </div>
+          <div
+            data-thq="thq-burger-menu"
+            class="navbar-interactive-burger-menu"
+          >
+            <svg viewBox="0 0 1024 1024" class="navbar-interactive-icon">
+              <path
+                d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+              ></path>
+            </svg>
+          </div>
+          <div
+            data-thq="thq-mobile-menu"
+            class="navbar-interactive-mobile-menu"
+          >
+            <div
+              data-thq="thq-mobile-menu-nav"
+              data-role="Nav"
+              class="navbar-interactive-nav1"
+            >
+              <div class="navbar-interactive-container1">
+                <img
+                  alt="image"
+                  src="public/Icons/logo%20white.svg"
+                  class="navbar-interactive-image"
+                />
+                <div
+                  data-thq="thq-close-menu"
+                  class="navbar-interactive-menu-close"
+                >
+                  <svg viewBox="0 0 1024 1024" class="navbar-interactive-icon2">
+                    <path
+                      d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+              <nav
+                data-thq="thq-mobile-menu-nav-links"
+                data-role="Nav"
+                class="navbar-interactive-nav2"
+              >
+                <a href="index.html" class="navbar-interactive-home1">HOME</a>
+                <a href="portraits.html" class="navbar-interactive-portraits1">
+                  PORTRAITS
+                </a>
+                <a
+                  href="application-photos.html"
+                  class="navbar-interactive-application-photos1"
+                >
+                  <span>APPLICATION PHOTOS</span>
+                  <br />
+                </a>
+                <a href="travel.html" class="navbar-interactive-travel1">
+                  TRAVEL
+                </a>
+                <a href="prices.html" class="navbar-interactive-prices1">
+                  PRICES
+                </a>
+                <a
+                  href="https://www.shutterstock.com/g/Sjard+Braun"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="navbar-interactive-portfolio1"
+                >
+                  PORTFOLIO
+                </a>
+                <a href="contact.html" class="navbar-interactive-contact1">
+                  CONTACT
+                </a>
+              </nav>
+            </div>
+            <div class="navbar-interactive-icon-group"></div>
+          </div>
+        </header>
       </div>
-    </header>
-  </div>
-</div>
+    </div>
+    <script
+      data-section-id="navbar"
+      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
+    ></script>
+  </body>
+</html>
