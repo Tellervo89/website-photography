@@ -685,6 +685,12 @@
   .footer-container {
     margin-left: var(--dl-space-space-fourunits);
   }
+  .footer-logo {
+    display: none;
+  }
+  .footer-container1 {
+    display: none;
+  }
   .footer-links-container {
     width: 572px;
   }
@@ -934,18 +940,19 @@
   flex-direction: column;
   justify-content: center;
 }
-.home-text01 {
+.home-booking {
+  margin-left: 0px;
+  text-decoration: none;
+}
+.home-text04 {
   color: #27272d;
   width: 60%;
-  margin-top: var(--dl-space-space-unit);
+  margin-top: var(--dl-space-space-twounits);
   text-align: justify;
   font-family: Open Sans;
   margin-left: 0px;
   margin-right: 0px;
   margin-bottom: var(--dl-space-space-unit);
-}
-.home-navlink3 {
-  margin-left: 0px;
 }
 .home-about-me {
   color: #ffffff;
@@ -993,7 +1000,7 @@
   color: rgb(255, 255, 255);
   width: 50%;
   text-align: justify;
-  font-family: Open Sans;
+  font-family: "Open Sans";
   margin-left: var(--dl-space-space-threeunits);
   margin-right: var(--dl-space-space-threeunits);
 }
@@ -1032,13 +1039,13 @@
     align-items: center;
     justify-content: center;
   }
-  .home-text01 {
-    margin-left: 0px;
-    margin-right: 0px;
-  }
-  .home-navlink3 {
+  .home-booking {
     align-self: center;
     margin-left: 0px;
+  }
+  .home-text04 {
+    margin-left: 0px;
+    margin-right: 0px;
   }
   .home-about-me1 {
     margin-left: 0px;
@@ -1049,7 +1056,7 @@
   .home-background-top {
     width: 100%;
   }
-  .home-navlink3 {
+  .home-booking {
     align-self: center;
   }
 }
@@ -1083,15 +1090,15 @@
     position: relative;
     margin-right: 0px;
   }
-  .home-text01 {
-    align-self: center;
-    text-align: center;
-  }
-  .home-navlink3 {
+  .home-booking {
     left: 0px;
     right: 0px;
     width: 50%;
     margin: auto;
+  }
+  .home-text04 {
+    align-self: center;
+    text-align: center;
   }
   .home-about-me {
     align-self: center;
@@ -1132,21 +1139,23 @@
     text-align: center;
   }
   .home-container1 {
-    margin-top: 0px;
+    margin-top: var(--dl-space-space-fourunits);
     margin-right: 0px;
   }
-  .home-text01 {
+  .home-booking {
+    width: 70%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .home-text04 {
+    color: rgb(39, 39, 45);
     width: 80%;
     margin: var(--dl-space-space-twounits);
     margin-top: 0px;
     text-align: center;
+    font-family: Open Sans;
     margin-left: 0px;
     margin-right: 0px;
-    margin-bottom: 0px;
-  }
-  .home-navlink3 {
-    width: 70%;
-    margin-top: 0px;
     margin-bottom: 0px;
   }
   .home-about-me {
@@ -1198,15 +1207,7 @@
   .home-container1 {
     margin-top: var(--dl-space-space-unit);
   }
-  .home-text01 {
-    width: 80%;
-    align-self: center;
-    margin-top: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-bottom: var(--dl-space-space-threeunits);
-  }
-  .home-navlink3 {
+  .home-booking {
     left: 0px;
     right: 0px;
     width: 100%;
@@ -1214,6 +1215,17 @@
     margin-left: 0px;
     margin-right: 0px;
     margin-bottom: 0px;
+  }
+  .home-text01 {
+    text-align: center;
+  }
+  .home-text04 {
+    width: 80%;
+    align-self: center;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-threeunits);
   }
   .home-about-me {
     width: 100VW;
