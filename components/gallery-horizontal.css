@@ -116,12 +116,15 @@
     flex-direction: column;
   }
   .gallery-horizontal-image {
+    width: 100%;
     margin: var(--dl-space-space-unit);
   }
   .gallery-horizontal-image1 {
+    width: 100%;
     margin: var(--dl-space-space-unit);
   }
   .gallery-horizontal-image2 {
+    width: 100%;
     margin: var(--dl-space-space-unit);
     margin-top: var(--dl-space-space-unit);
   }
