@@ -671,6 +671,7 @@
   justify-content: center;
 }
 .contact-booking {
+  width: auto;
   margin-top: 0px;
   margin-left: 0px;
   text-decoration: none;
@@ -834,7 +835,7 @@
   .contact-booking {
     left: 0px;
     right: 0px;
-    width: 30%;
+    width: auto;
     margin: auto;
   }
   .contact-container2 {
@@ -846,7 +847,7 @@
 }
 @media(max-width: 767px) {
   .contact-online-booking {
-    width: 40%;
+    width: 80%;
     height: auto;
     margin-bottom: var(--dl-space-space-threeunits);
     flex-direction: column;
@@ -857,8 +858,12 @@
     margin-right: 0px;
   }
   .contact-booking {
-    width: 70%;
+    left: 0px;
+    right: 0px;
+    width: auto;
+    margin: auto;
     margin-top: 0px;
+    margin-left: auto;
     margin-bottom: 0px;
   }
   .contact-container2 {
@@ -873,19 +878,20 @@
 }
 @media(max-width: 479px) {
   .contact-online-booking {
-    width: auto;
+    width: 90%;
     height: auto;
     justify-content: flex-start;
   }
   .contact-container1 {
-    width: auto;
+    width: 90%;
     margin-top: var(--dl-space-space-unit);
     margin-left: 0px;
   }
   .contact-booking {
     top: 19px;
-    left: -84px;
-    width: 174px;
+    left: 0px;
+    right: 0px;
+    width: auto;
     margin: auto;
   }
   .contact-container3 {
