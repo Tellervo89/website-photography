@@ -84,6 +84,7 @@
 }
 .footer-navigate {
   flex: 0 0 auto;
+  height: 172px;
   display: flex;
   align-items: flex-start;
   margin-right: var(--dl-space-space-sixunits);
@@ -105,13 +106,14 @@
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.footer-application-photos {
+.footer-application-p {
   color: rgb(255, 255, 255);
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
 .footer-travel {
   color: rgb(255, 255, 255);
+  margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
 .footer-info {
@@ -228,15 +230,15 @@
   .footer-container2 {
     margin-right: var(--dl-space-space-fourunits);
   }
-  .footer-navigate {
-    margin-right: var(--dl-space-space-fourunits);
-  }
 }
 @media(max-width: 991px) {
   .footer-footer {
     width: 100%;
     position: relative;
     flex-direction: column;
+  }
+  .footer-container {
+    margin-left: var(--dl-space-space-twounits);
   }
   .footer-logo {
     top: 89px;
@@ -270,22 +272,24 @@
     flex-direction: row;
   }
   .footer-container2 {
-    margin-right: 0px;
-  }
-  .footer-navigate {
-    width: auto;
-    height: auto;
-    align-items: flex-start;
-    margin-left: 0xUnits;
+    align-self: center;
+    align-items: center;
     margin-right: 0px;
     justify-content: center;
   }
-  .footer-info {
+  .footer-navigate {
     width: auto;
     height: auto;
     align-self: stretch;
     margin-left: 0px;
     margin-right: 0px;
+  }
+  .footer-info {
+    width: auto;
+    height: auto;
+    align-self: stretch;
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
   }
   .footer-social {
     width: auto;
@@ -294,11 +298,16 @@
     padding-left: 0px;
   }
   .footer-social1 {
+    width: auto;
+    height: auto;
     align-self: stretch;
     align-items: flex-start;
     margin-left: var(--dl-space-space-threeunits);
     margin-right: 0px;
     justify-content: flex-start;
+  }
+  .footer-linked-in {
+    margin-bottom: var(--dl-space-space-unit);
   }
 }
 @media(max-width: 767px) {
@@ -341,6 +350,9 @@
     width: 100%;
     justify-content: space-between;
   }
+  .footer-navigate {
+    margin-right: 0px;
+  }
   .footer-info {
     margin-right: 0px;
   }
@@ -376,7 +388,7 @@
     justify-content: space-between;
   }
   .footer-navigate {
-    margin-right: var(--dl-space-space-unit);
+    align-self: stretch;
   }
   .footer-info {
     align-self: stretch;
