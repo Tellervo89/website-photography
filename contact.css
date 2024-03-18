@@ -196,6 +196,8 @@
   }
   .navbar-interactive-icon {
     fill: #D9D9D9;
+    width: var(--dl-size-size-small);
+    height: var(--dl-size-size-small);
   }
   .navbar-interactive-mobile-menu {
     background-color: #27272D;
@@ -228,6 +230,7 @@
     align-self: flex-start;
   }
   .navbar-interactive-root-class-name1 {
+    width: Button;
     align-self: flex-start;
   }
   .navbar-interactive-root-class-name2 {
