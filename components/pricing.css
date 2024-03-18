@@ -164,7 +164,7 @@
   font-family: Open Sans;
   margin-bottom: var(--dl-space-space-unit);
 }
-.pricing-link1 {
+.pricing-button {
   color: var(--dl-color-gray-white);
   align-self: center;
   margin-top: auto;
@@ -242,7 +242,7 @@
   font-family: Open Sans;
   margin-bottom: var(--dl-space-space-unit);
 }
-.pricing-link2 {
+.pricing-link1 {
   color: var(--dl-color-gray-white);
   margin-top: auto;
   font-family: "Open Sans";
@@ -259,10 +259,10 @@
   .pricing-link {
     margin-left: 0px;
   }
-  .pricing-link1 {
+  .pricing-button {
     margin-left: 0px;
   }
-  .pricing-link2 {
+  .pricing-link1 {
     margin-left: 0px;
   }
 }
@@ -274,6 +274,7 @@
     align-items: center;
   }
   .pricing-link {
+    width: auto;
     display: none;
   }
   .pricing-pricing-card1 {
@@ -282,7 +283,7 @@
     max-height: 100%;
     align-items: center;
   }
-  .pricing-link1 {
+  .pricing-button {
     display: none;
   }
   .pricing-pricing-card2 {
@@ -290,7 +291,7 @@
     max-width: 100%;
     align-items: center;
   }
-  .pricing-link2 {
+  .pricing-link1 {
     display: none;
   }
 }
@@ -314,7 +315,7 @@
     margin-right: 0px;
     margin-bottom: var(--dl-space-space-twounits);
   }
-  .pricing-link1 {
+  .pricing-button {
     display: none;
   }
   .pricing-pricing-card2 {
@@ -332,7 +333,7 @@
     padding-right: var(--dl-space-space-unit);
     padding-bottom: var(--dl-space-space-twounits);
   }
-  .pricing-link1 {
+  .pricing-button {
     display: none;
   }
   .pricing-pricing-card2 {
