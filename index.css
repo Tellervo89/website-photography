@@ -1032,9 +1032,10 @@
   flex-direction: column;
   justify-content: center;
 }
-.home-button {
+.home-link {
   align-self: center;
   margin-left: 0px;
+  text-decoration: none;
 }
 .home-text04 {
   color: rgb(39, 39, 45);
@@ -1055,7 +1056,7 @@
   text-align: center;
   font-family: Open Sans;
 }
-.home-link {
+.home-link1 {
   display: contents;
 }
 .home-image {
@@ -1079,7 +1080,7 @@
   margin-bottom: var(--dl-space-space-fourunits);
   justify-content: center;
 }
-.home-link1 {
+.home-link2 {
   display: contents;
 }
 .home-image1 {
@@ -1364,6 +1365,9 @@
   }
   .home-container1 {
     margin-top: var(--dl-space-space-unit);
+  }
+  .home-link {
+    margin-bottom: var(--dl-space-space-twounits);
   }
   .home-text04 {
     width: 80%;
