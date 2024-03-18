@@ -282,8 +282,9 @@
   color: #ffffff;
   font-size: 1.5rem;
   align-self: center;
+  font-style: normal;
   font-family: Open Sans;
-  font-weight: 300;
+  font-weight: 600;
   margin-bottom: var(--dl-space-space-unit);
 }
 .services-description {
@@ -354,6 +355,11 @@
   }
 }
 @media(max-width: 479px) {
+  .services-service {
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 600;
+  }
   .services-root-class-name5 {
     align-self: flex-start;
   }
@@ -562,6 +568,7 @@
 }
 .footer-navigate {
   flex: 0 0 auto;
+  height: 172px;
   display: flex;
   align-items: flex-start;
   margin-right: var(--dl-space-space-sixunits);
@@ -583,13 +590,14 @@
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.footer-application-photos {
+.footer-application-p {
   color: rgb(255, 255, 255);
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
 .footer-travel {
   color: rgb(255, 255, 255);
+  margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
 .footer-info {
@@ -706,15 +714,15 @@
   .footer-container2 {
     margin-right: var(--dl-space-space-fourunits);
   }
-  .footer-navigate {
-    margin-right: var(--dl-space-space-fourunits);
-  }
 }
 @media(max-width: 991px) {
   .footer-footer {
     width: 100%;
     position: relative;
     flex-direction: column;
+  }
+  .footer-container {
+    margin-left: var(--dl-space-space-twounits);
   }
   .footer-logo {
     top: 89px;
@@ -748,22 +756,24 @@
     flex-direction: row;
   }
   .footer-container2 {
-    margin-right: 0px;
-  }
-  .footer-navigate {
-    width: auto;
-    height: auto;
-    align-items: flex-start;
-    margin-left: 0xUnits;
+    align-self: center;
+    align-items: center;
     margin-right: 0px;
     justify-content: center;
   }
-  .footer-info {
+  .footer-navigate {
     width: auto;
     height: auto;
     align-self: stretch;
     margin-left: 0px;
     margin-right: 0px;
+  }
+  .footer-info {
+    width: auto;
+    height: auto;
+    align-self: stretch;
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
   }
   .footer-social {
     width: auto;
@@ -772,11 +782,16 @@
     padding-left: 0px;
   }
   .footer-social1 {
+    width: auto;
+    height: auto;
     align-self: stretch;
     align-items: flex-start;
     margin-left: var(--dl-space-space-threeunits);
     margin-right: 0px;
     justify-content: flex-start;
+  }
+  .footer-linked-in {
+    margin-bottom: var(--dl-space-space-unit);
   }
 }
 @media(max-width: 767px) {
@@ -819,6 +834,9 @@
     width: 100%;
     justify-content: space-between;
   }
+  .footer-navigate {
+    margin-right: 0px;
+  }
   .footer-info {
     margin-right: 0px;
   }
@@ -854,7 +872,7 @@
     justify-content: space-between;
   }
   .footer-navigate {
-    margin-right: var(--dl-space-space-unit);
+    align-self: stretch;
   }
   .footer-info {
     align-self: stretch;
@@ -883,9 +901,11 @@
   width: 80%;
   height: 100%;
   align-self: center;
+  font-style: normal;
   margin-top: var(--dl-space-space-threeunits);
   text-align: center;
   font-family: Open Sans;
+  font-weight: 600;
   margin-bottom: var(--dl-space-space-threeunits);
 }
 .home-services {
@@ -929,7 +949,7 @@
   justify-content: center;
   background-color: #D2D2D8;
 }
-.home-text {
+.home-text03 {
   color: #27272d;
   width: 35%;
   align-self: center;
@@ -953,12 +973,12 @@
   margin-left: 0px;
   text-decoration: none;
 }
-.home-text04 {
-  color: #27272d;
+.home-text07 {
+  color: rgb(39, 39, 45);
   width: 60%;
   margin-top: var(--dl-space-space-twounits);
   text-align: justify;
-  font-family: Open Sans;
+  font-family: "Open Sans";
   margin-left: 0px;
   margin-right: 0px;
   margin-bottom: var(--dl-space-space-unit);
@@ -1005,7 +1025,7 @@
   margin-left: var(--dl-space-space-fiveunits);
   text-decoration: none;
 }
-.home-text07 {
+.home-text10 {
   color: rgb(255, 255, 255);
   width: 50%;
   text-align: justify;
@@ -1022,7 +1042,7 @@
   justify-content: center;
   background-color: #D2D2D8;
 }
-.home-text16 {
+.home-text19 {
   font-family: Open Sans;
 }
 .home-testimonials {
@@ -1036,6 +1056,44 @@
   flex-direction: row;
   background-color: #D2D2D8;
 }
+.home-container2 {
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.home-where-we-are {
+  color: var(--dl-color-gray-white);
+  font-weight: 700;
+  padding-top: var(--dl-space-space-threeunits);
+}
+.home-iframe {
+  width: 100VW;
+  height: 600px;
+  align-self: center;
+  margin-top: var(--dl-space-space-twounits);
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.home-address {
+  color: rgb(255, 255, 255);
+  width: 80%;
+  align-self: center;
+  margin-top: 0px;
+  text-align: center;
+  font-family: "Open Sans";
+  line-height: 1.5;
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.home-text22 {
+  font-weight: 500;
+}
+.home-text23 {
+  font-weight: 500;
+}
+.home-text24 {
+  font-weight: 500;
+}
 @media(max-width: 1600px) {
   .home-container {
     align-items: center;
@@ -1043,6 +1101,10 @@
   }
   .home-background-top {
     align-self: center;
+  }
+  .home-tagline {
+    font-style: normal;
+    font-weight: 600;
   }
   .home-container1 {
     align-items: center;
@@ -1052,7 +1114,7 @@
     align-self: center;
     margin-left: 0px;
   }
-  .home-text04 {
+  .home-text07 {
     margin-left: 0px;
     margin-right: 0px;
   }
@@ -1060,13 +1122,28 @@
     margin-left: 0px;
     margin-right: 0px;
   }
+  .home-iframe {
+    height: 400px;
+  }
 }
 @media(max-width: 1200px) {
   .home-background-top {
     width: 100%;
   }
+  .home-tagline {
+    font-style: normal;
+    font-weight: 600;
+  }
   .home-booking {
     align-self: center;
+  }
+  .home-iframe {
+    width: 100VW;
+    height: 350px;
+  }
+  .home-address {
+    color: rgb(255, 255, 255);
+    margin-top: var(--dl-space-space-twounits);
   }
 }
 @media(max-width: 991px) {
@@ -1075,7 +1152,11 @@
     border-width: 0px;
   }
   .home-tagline {
+    color: rgb(255, 255, 255);
     width: 80%;
+    font-style: normal;
+    font-family: Open Sans;
+    font-weight: 600;
   }
   .home-services {
     width: 100%;
@@ -1086,7 +1167,7 @@
     height: 442px;
     flex-direction: column;
   }
-  .home-text {
+  .home-text03 {
     top: 48px;
     left: 0px;
     right: 0px;
@@ -1105,7 +1186,7 @@
     width: 50%;
     margin: auto;
   }
-  .home-text04 {
+  .home-text07 {
     align-self: center;
     text-align: center;
   }
@@ -1121,6 +1202,9 @@
     align-items: center;
     flex-direction: row;
   }
+  .home-iframe {
+    height: 300px;
+  }
 }
 @media(max-width: 767px) {
   .home-background-top {
@@ -1128,7 +1212,11 @@
   }
   .home-tagline {
     width: 80%;
+    font-size: 1.5em;
+    font-style: normal;
     margin-top: var(--dl-space-space-twounits);
+    font-family: Open Sans;
+    font-weight: 500;
     margin-bottom: var(--dl-space-space-twounits);
   }
   .home-services {
@@ -1140,7 +1228,7 @@
     margin-bottom: var(--dl-space-space-threeunits);
     flex-direction: column;
   }
-  .home-text {
+  .home-text03 {
     left: 0px;
     right: 0px;
     width: 80%;
@@ -1152,11 +1240,11 @@
     margin-right: 0px;
   }
   .home-booking {
-    width: 70%;
+    width: 231px;
     margin-top: 0px;
     margin-bottom: 0px;
   }
-  .home-text04 {
+  .home-text07 {
     color: rgb(39, 39, 45);
     width: 80%;
     margin: var(--dl-space-space-twounits);
@@ -1186,15 +1274,24 @@
   .home-image1 {
     display: none;
   }
-  .home-text07 {
+  .home-text10 {
     text-align: left;
+  }
+  .home-iframe {
+    width: 100VW;
+    height: 300px;
+    padding-left: 0px;
+    margin-bottom: var(--dl-space-space-twounits);
   }
 }
 @media(max-width: 479px) {
   .home-tagline {
     width: 80%;
     height: 100%;
+    font-size: 1em;
+    font-style: normal;
     margin-top: var(--dl-space-space-unit);
+    font-weight: 600;
     margin-bottom: var(--dl-space-space-unit);
   }
   .home-book-a-session {
@@ -1202,7 +1299,7 @@
     height: 650px;
     justify-content: flex-start;
   }
-  .home-text {
+  .home-text03 {
     left: 0px;
     right: 0px;
     width: 80%;
@@ -1219,16 +1316,17 @@
   .home-booking {
     left: 0px;
     right: 0px;
-    width: 100%;
+    width: 242px;
+    margin: auto;
     margin-top: 0px;
     margin-left: 0px;
     margin-right: 0px;
     margin-bottom: 0px;
   }
-  .home-text01 {
+  .home-text04 {
     text-align: center;
   }
-  .home-text04 {
+  .home-text07 {
     width: 80%;
     align-self: center;
     margin-top: 0px;
@@ -1252,12 +1350,18 @@
   .home-image1 {
     display: none;
   }
-  .home-text07 {
+  .home-text10 {
     width: 70%;
   }
   .home-testimonials {
     align-items: center;
     flex-direction: column;
     justify-content: center;
+  }
+  .home-iframe {
+    height: 300px;
+  }
+  .home-address {
+    width: 80%;
   }
 }
