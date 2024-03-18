@@ -227,6 +227,9 @@
   .navbar-interactive-root-class-name {
     align-self: flex-start;
   }
+  .navbar-interactive-root-class-name1 {
+    align-self: flex-start;
+  }
   .navbar-interactive-root-class-name2 {
     align-self: flex-start;
   }
@@ -293,6 +296,7 @@
   text-align: center;
   font-family: Open Sans;
   font-weight: 400;
+  line-height: 1.5;
   margin-bottom: var(--dl-space-space-twounits);
 }
 
@@ -326,7 +330,7 @@
 }
 @media(max-width: 991px) {
   .services-image {
-    width: 60%;
+    width: 100%;
     height: 60%;
   }
   .services-description {
@@ -351,7 +355,11 @@
 }
 @media(max-width: 767px) {
   .services-image {
+    width: 100%;
     height: 100%;
+  }
+  .services-description {
+    line-height: 1.5;
   }
 }
 @media(max-width: 479px) {
@@ -394,6 +402,7 @@
   color: #27272D;
   text-align: center;
   font-family: Open Sans;
+  line-height: 1.5;
   margin-bottom: var(--dl-space-space-twounits);
 }
 .testimonials-link {
@@ -479,6 +488,51 @@
   .testimonials-root-class-name5 {
     max-width: 100%;
     align-self: center;
+  }
+}
+
+.map-container {
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.map-iframe {
+  width: 100VW;
+  height: 600px;
+  align-self: center;
+  margin-top: var(--dl-space-space-twounits);
+  margin-bottom: var(--dl-space-space-twounits);
+}
+
+@media(max-width: 1600px) {
+  .map-iframe {
+    height: 400px;
+  }
+}
+@media(max-width: 1200px) {
+  .map-iframe {
+    width: 100VW;
+    height: 350px;
+  }
+}
+@media(max-width: 991px) {
+  .map-iframe {
+    height: 300px;
+  }
+}
+@media(max-width: 767px) {
+  .map-iframe {
+    width: 100VW;
+    height: 300px;
+    padding-left: 0px;
+    margin-bottom: var(--dl-space-space-twounits);
+  }
+}
+@media(max-width: 479px) {
+  .map-iframe {
+    height: 300px;
   }
 }
 
@@ -906,6 +960,7 @@
   text-align: center;
   font-family: Open Sans;
   font-weight: 600;
+  line-height: 1.5;
   margin-bottom: var(--dl-space-space-threeunits);
 }
 .home-services {
@@ -955,6 +1010,7 @@
   align-self: center;
   text-align: center;
   font-family: Open Sans;
+  line-height: 1.5;
   margin-left: var(--dl-space-space-threeunits);
   margin-right: var(--dl-space-space-threeunits);
 }
@@ -979,6 +1035,7 @@
   margin-top: var(--dl-space-space-twounits);
   text-align: justify;
   font-family: "Open Sans";
+  line-height: 1.5;
   margin-left: 0px;
   margin-right: 0px;
   margin-bottom: var(--dl-space-space-unit);
@@ -1030,6 +1087,7 @@
   width: 50%;
   text-align: justify;
   font-family: "Open Sans";
+  line-height: 1.5;
   margin-left: var(--dl-space-space-threeunits);
   margin-right: var(--dl-space-space-threeunits);
 }
@@ -1068,13 +1126,6 @@
   font-weight: 700;
   padding-top: var(--dl-space-space-threeunits);
 }
-.home-iframe {
-  width: 100VW;
-  height: 600px;
-  align-self: center;
-  margin-top: var(--dl-space-space-twounits);
-  margin-bottom: var(--dl-space-space-twounits);
-}
 .home-address {
   color: rgb(255, 255, 255);
   width: 80%;
@@ -1084,15 +1135,6 @@
   font-family: "Open Sans";
   line-height: 1.5;
   margin-bottom: var(--dl-space-space-twounits);
-}
-.home-text22 {
-  font-weight: 500;
-}
-.home-text23 {
-  font-weight: 500;
-}
-.home-text24 {
-  font-weight: 500;
 }
 @media(max-width: 1600px) {
   .home-container {
@@ -1122,9 +1164,6 @@
     margin-left: 0px;
     margin-right: 0px;
   }
-  .home-iframe {
-    height: 400px;
-  }
 }
 @media(max-width: 1200px) {
   .home-background-top {
@@ -1136,10 +1175,6 @@
   }
   .home-booking {
     align-self: center;
-  }
-  .home-iframe {
-    width: 100VW;
-    height: 350px;
   }
   .home-address {
     color: rgb(255, 255, 255);
@@ -1202,8 +1237,10 @@
     align-items: center;
     flex-direction: row;
   }
-  .home-iframe {
-    height: 300px;
+  .home-address {
+    font-style: normal;
+    margin-top: 0px;
+    font-weight: 500;
   }
 }
 @media(max-width: 767px) {
@@ -1220,11 +1257,12 @@
     margin-bottom: var(--dl-space-space-twounits);
   }
   .home-services {
+    width: 100%;
     flex-direction: column;
   }
   .home-book-a-session {
     width: 100%;
-    height: 450px;
+    height: 600px;
     margin-bottom: var(--dl-space-space-threeunits);
     flex-direction: column;
   }
@@ -1241,8 +1279,8 @@
   }
   .home-booking {
     width: 231px;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin-top: var(--dl-space-space-unit);
+    margin-bottom: var(--dl-space-space-unit);
   }
   .home-text07 {
     color: rgb(39, 39, 45);
@@ -1277,10 +1315,13 @@
   .home-text10 {
     text-align: left;
   }
-  .home-iframe {
-    width: 100VW;
-    height: 300px;
-    padding-left: 0px;
+  .home-container2 {
+    width: 90%;
+  }
+  .home-address {
+    font-style: normal;
+    margin-top: 0px;
+    font-weight: 300;
     margin-bottom: var(--dl-space-space-twounits);
   }
 }
@@ -1296,7 +1337,7 @@
   }
   .home-book-a-session {
     width: auto;
-    height: 650px;
+    height: 700px;
     justify-content: flex-start;
   }
   .home-text03 {
@@ -1314,14 +1355,7 @@
     margin-top: var(--dl-space-space-unit);
   }
   .home-booking {
-    left: 0px;
-    right: 0px;
     width: 242px;
-    margin: auto;
-    margin-top: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-bottom: 0px;
   }
   .home-text04 {
     text-align: center;
@@ -1357,9 +1391,6 @@
     align-items: center;
     flex-direction: column;
     justify-content: center;
-  }
-  .home-iframe {
-    height: 300px;
   }
   .home-address {
     width: 80%;
