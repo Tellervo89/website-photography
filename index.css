@@ -1045,7 +1045,9 @@
 }
 .home-link {
   align-self: center;
-  margin-left: 0px;
+  text-align: center;
+  margin-left: 0px0;
+  margin-right: 0px0;
   text-decoration: none;
 }
 .home-about-me {
@@ -1235,7 +1237,7 @@
   .home-link {
     left: 0px;
     right: 0px;
-    width: 50%;
+    width: auto;
     margin: auto;
   }
   .home-about-me {
@@ -1308,7 +1310,10 @@
     margin-bottom: 0px;
   }
   .home-link {
-    width: 70%;
+    color: var(--dl-color-gray-black);
+    width: auto;
+    text-align: center;
+    text-decoration: none;
   }
   .home-about-me {
     color: rgb(255, 255, 255);
@@ -1387,7 +1392,7 @@
   .home-link {
     left: 0px;
     right: 0px;
-    width: 80%;
+    width: auto;
     margin: auto;
     margin-bottom: var(--dl-space-space-twounits);
   }

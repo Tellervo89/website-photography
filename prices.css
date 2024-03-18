@@ -1695,6 +1695,7 @@
     padding-right: var(--dl-space-space-twounits);
   }
   .prices-button {
+    display: none;
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
