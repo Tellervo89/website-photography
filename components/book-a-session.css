@@ -43,7 +43,11 @@
   margin-bottom: var(--dl-space-space-unit);
 }
 .book-a-session-booking {
+  align-self: center;
   margin-left: 0px;
+}
+.book-a-session-text2 {
+  text-align: center;
 }
 @media(max-width: 1600px) {
   .book-a-session-container {
@@ -106,6 +110,7 @@
     right: 0px;
     width: 80%;
     margin: auto;
+    font-size: 1.5em;
     text-align: center;
   }
   .book-a-session-container {
@@ -122,9 +127,10 @@
     margin-bottom: 0px;
   }
   .book-a-session-booking {
+    left: 0px;
+    right: 0px;
     width: 70%;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin: auto;
   }
 }
 @media(max-width: 479px) {
@@ -159,9 +165,6 @@
     left: 0px;
     right: 0px;
     width: 100%;
-    margin-top: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-bottom: 0px;
+    margin: auto;
   }
 }
