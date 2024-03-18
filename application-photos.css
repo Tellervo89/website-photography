@@ -196,8 +196,8 @@
   }
   .navbar-interactive-icon {
     fill: #D9D9D9;
-    width: var(--dl-size-size-small);
-    height: var(--dl-size-size-small);
+    width: 25px;
+    height: 25px;
   }
   .navbar-interactive-mobile-menu {
     background-color: #27272D;

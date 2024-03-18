@@ -196,8 +196,8 @@
   }
   .navbar-interactive-icon {
     fill: #D9D9D9;
-    width: var(--dl-size-size-small);
-    height: var(--dl-size-size-small);
+    width: 25px;
+    height: 25px;
   }
   .navbar-interactive-mobile-menu {
     background-color: #27272D;
@@ -1229,6 +1229,7 @@
     margin: auto;
   }
   .home-text04 {
+    width: 100%;
     text-align: center;
   }
   .home-text07 {
@@ -1286,11 +1287,13 @@
   .home-container1 {
     margin-top: var(--dl-space-space-fourunits);
     margin-right: 0px;
+    justify-content: center;
   }
   .home-booking {
-    width: 231px;
+    width: 60%;
   }
   .home-text04 {
+    width: 100%;
     text-align: center;
   }
   .home-text07 {
